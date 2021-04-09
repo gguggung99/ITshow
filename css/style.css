@@ -97,7 +97,41 @@ h4{
 }
 .portfolio-area{
     display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 90%;
+    margin-top: 80px;
+    max-width: auto;
+    float: none;
 }
 .portfolio-img{
     display: flex;
+    margin: 10px;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+}
+.portfolio-img {
+  text-decoration: none;
+  color: #acacac;
+  font-family: "Noto Sans KR";
+  font-weight: bold;
+}
+
+.portfolio-img:hover {
+  background: linear-gradient( #d3d3d3 0%,#d3d3d3 70%, black 100%);
+}
+
+#explain{
+  position : absolute;
+  padding-left: 10px;
+  padding-top: 80px;
+  box-sizing: border-box;
+  opacity: 0;
+}
+
+.portfolio-img:hover #explain{
+  color: white;
+  opacity: 1;
 }
