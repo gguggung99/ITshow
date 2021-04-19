@@ -121,12 +121,13 @@ h4{
 
 .portfolio-img:hover {
   background: linear-gradient( #d3d3d3 0%,#d3d3d3 70%, black 100%);
+  box-shadow: 0px 6px 10px 6px rgba(0, 0, 0, .1);
 }
 
 #explain{
   position : absolute;
-  padding-left: 10px;
-  padding-top: 80px;
+  padding-left: 20px;
+  padding-top: 245px;
   box-sizing: border-box;
   opacity: 0;
 }
