@@ -1,3 +1,10 @@
+.has-scroll-smooth {
+  overflow: auto;
+}
+
+.has-scroll-smooth::-webkit-scrollbar{
+  display:none;
+}
 body {
   display: flex;
   flex-direction: row;
